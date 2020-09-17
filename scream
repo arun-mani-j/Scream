@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import sys
+import Scream
+
+app = Scream.Application()
+ret = app.run(sys.argv)
+
+exit(ret)
